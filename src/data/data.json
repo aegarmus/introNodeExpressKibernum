@@ -1,8 +1,23 @@
 [
     {
-        "nombre": "Jessica",
-        "apellido": "Solar",
-        "edad": 25,
-        "ocupacion": "desarrollo full stack"
+        "id": "260f4b9e-232d-4e5e-974b-f152fd51c0ba",
+        "name": "Elsa",
+        "lastName": "Malle",
+        "email": "elsa@gmail.com",
+        "active": true
+    },
+    {
+        "id": "ce4654cf-875c-402b-82c4-b4dfc9848450",
+        "name": "Marcelo",
+        "lastName": "Acevedo",
+        "email": "marcelo@gmail.com",
+        "active": true
+    },
+    {
+        "id": "ce036ff1-46dd-45c2-87b9-315018a46b50",
+        "name": "Jessica",
+        "lastName": "Solar",
+        "email": "jessica@gmail.com",
+        "active": true
     }
 ]

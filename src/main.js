@@ -3,6 +3,11 @@ import dataRouter from './routers/routes.js'
 
 const app = express()
 
+//Middleware -> Función que se ejecuta entre la petición y la respuesta
+
+app.use(express.json())
+
+
 // Protocolos HTTP
 
 /*
@@ -23,6 +28,9 @@ DELETE -> para eliminar información
 
 app.use('/api/v1', dataRouter)
 
+
 app.listen(3000, () => {
     console.log('Servidor Corriendo en el puerto 3000')
 })
+
+
